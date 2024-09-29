@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>MCU 4 U</title>
+</head>
+<body>
+    <header>
+        <!--This is web site name-->
+        <a href="#" class="name">MCU 4 U</a>
+
+        <!--This is navigation bar-->
+        <ul class="navigation">
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Series</a></li>
+            <li><a href="#">UP Coming</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+
+        <!--This is the search bar-->
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <!--This is header ending-->
+
+    <!--This is movie title banner begin-->
+    <div class="banner">
+        <div class="content active">
+            <img src="./Images/Film-name-banners/Avengers End game banner.png" alt="" class="film-title">
+
+            <!--This is description bar-->
+            <h4>
+                <span>2019</span>
+                <span><i>Family</i></span>
+                <span>3h 1m</span>
+                <span>Action</span>
+            </h4>
+
+            <!--This is small description-->
+            <p>
+                After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. 
+                With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+            </p>
+
+            <!--this is watch button-->
+            <div class="button">
+                <a href="https://piratelk.com/avengers-endgame-2019-sinhala-subtitle/"><i class="fa fa-play" aria-hidden="true"></i>Watch</a>
+
+                <!--This is my list button-->
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+            </div>
+        </div>
+
+        <!--This is for carousel-box-->
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="/Images/Film-Poster/Avengers-Endgame-Poster.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Images/Film-Poster/Avengers-Infinity-war.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Images/Film-Poster/Avengers-Age-of-Ultron.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Images/Film-Poster/Avengers.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Images/Film-Poster/Captain-America-Civil-war.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--This is trailer link-->
+        <a href="https://youtu.be/TcMBFSGVi1c" class="play">
+            <i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Trailer
+        </a>
+
+        <!--This is social media-->
+        <ul class="social">
+            <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" aria-label="YouTube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>  
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!--his is for carousel-box funtion-->
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
